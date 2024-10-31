@@ -76,7 +76,7 @@ Table shows the PPRs from the 1970 Palma de Mallorca Interzonal Tournament. The 
 | 11   | Panno       | 12.5   | 2588 | 23   | Rubinetti | 5      | 2350 |
 | 12   | Mecking     | 12.5   | 2588 | 24   | Jimenez   | 5.5    | 2372 |
 
-For a more recent example, in the 2017 FIDE Grand Swiss Palma de Mallorca, Jakovenko was ranked 1st according to the TPR tiebreak, but Aronian's PPR was higher because his opponents performed better in the tournament. For similar reasons, Nakamura's and Svidler's PPRs are also noticeably higher than their TPRs.
+For a more recent example, in the 2017 FIDE Grand Prix Palma de Mallorca, Jakovenko was ranked 1st according to the TPR tiebreak, but Aronian's PPR was higher because his opponents performed better in the tournament. For similar reasons, Nakamura's and Svidler's PPRs are also noticeably higher than their TPRs.
 
 | Rk. | Name                   | Rtg  | Pts. | TPR  | PRE  |
 | --- | ---------------------- | ---- | ---- | ---- | ---- |
