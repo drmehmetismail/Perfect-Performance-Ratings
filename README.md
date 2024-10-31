@@ -1,8 +1,8 @@
-# Perfect Performance Ratings (PPR) Calculator
+# Perfect Performance Ratings (PPR)
 
 ## Overview
 
-The **Perfect Performance Ratings (PPR) Calculator** is a Python script designed to compute a Performance Rating Equilibrium for players in a chess tournament based on PGN files. PPRs are a vector of hypothetical ratings for each player such that, after scoring their points in the tournament, every player's initial rating remains unchanged. In other words, all players' initial ratings perfectly predict their actual scores in the tournament. This property, however, does not hold for the well-known Tournament Performance Rating (TPR) because is calculated using a player's opponents' pre-tournament ratings. A vector of PPRs is a fixed point of the rating function. Numerically, the PPRs can be calculated iteratively starting from some vector of ratings and updating initial ratings after each iteration. Here, the main implementation uses the uniform vector with tournament average rating to select a performance rating equilibrium. 
+The **Perfect Performance Ratings (PPR)** is a Python script designed to compute a Performance Rating Equilibrium for players in a chess tournament based on PGN files. PPRs are a vector of hypothetical ratings for each player such that, after scoring their points in the tournament, every player's initial rating remains unchanged. In other words, all players' initial ratings perfectly predict their actual scores in the tournament. This property, however, does not hold for the well-known Tournament Performance Rating (TPR) because is calculated using a player's opponents' pre-tournament ratings. A vector of PPRs is a fixed point of the rating function. Numerically, the PPRs can be calculated iteratively starting from some vector of ratings and updating initial ratings after each iteration. Here, the main implementation uses the uniform vector with tournament average rating to select a performance rating equilibrium. 
 
 ## Features
 
