@@ -30,7 +30,7 @@ pip install pandas numpy scipy python-chess
 
 ## Usage
 
-1. **Prepare PGN Files**: Place your PGN files in a directory.
+1. **Prepare PGN Files**: Place your PGN files in a directory. The second table below is produced from the PGNs available online (see, e.g., https://theweekinchess.com/chessnews/events/palma-de-mallorca-fide-grand-prix-2017).
 
 2. **Configure Parameters**: Modify the script parameters as needed:
 
