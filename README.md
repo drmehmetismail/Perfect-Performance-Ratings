@@ -59,6 +59,46 @@ pip install pandas numpy scipy python-chess
 
 4. **Output**: The script will generate a `PPRs.csv` file containing the performance ratings.
 
+Table shows the PPRs from the 1970 Palma de Mallorca Interzonal Tournament. The Interzonal events were part of the World Chess Championship cycle and are similar to the current Chess World Cup. Since the first official FIDE Elo list was not published until 1971, players in this tournament did not have official ratings. However, based on the first published ratings for the players, it is possible to estimate the tournament's average rating at approximately 2557. The resulting PPRs are presented in the table.
+
+| Rank | Name        | Points | PPR  | Rank | Name      | Points | PPR  |
+|------|-------------|--------|------|------|-----------|--------|------|
+| 1    | Fischer     | 18.5   | 2805 | 13   | Hort      | 11.5   | 2556 |
+| 2    | Larsen      | 15     | 2669 | 14   | Ivkov     | 10.5   | 2525 |
+| 3    | Geller      | 15     | 2669 | 15   | Suttles   | 10     | 2509 |
+| 4    | Huebner     | 15     | 2669 | 16   | Minic     | 10     | 2509 |
+| 5    | Taimanov    | 14     | 2636 | 17   | Reshevsky | 9.5    | 2493 |
+| 6    | Uhlmann     | 14     | 2636 | 18   | Matulovic | 9      | 2477 |
+| 7    | Portisch    | 13.5   | 2620 | 19   | Addison   | 9      | 2477 |
+| 8    | Smyslov     | 13.5   | 2620 | 20   | Filip     | 8.5    | 2460 |
+| 9    | Polugaevsky | 13     | 2604 | 21   | Naranja   | 8.5    | 2460 |
+| 10   | Gligoric    | 13     | 2604 | 22   | Ujtumen   | 8.5    | 2460 |
+| 11   | Panno       | 12.5   | 2588 | 23   | Rubinetti | 5      | 2350 |
+| 12   | Mecking     | 12.5   | 2588 | 24   | Jimenez   | 5.5    | 2372 |
+
+For a more recent example, in the 2017 FIDE Grand Swiss Palma de Mallorca, Jakovenko was ranked 1st according to the TPR tiebreak, but Aronian's PPR was higher because his opponents performed better in the tournament. For similar reasons, Nakamura's and Svidler's PPRs are also noticeably higher than their TPRs.
+
+| Rk. | Name                   | Rtg  | Pts. | TPR  | PRE  |
+| --- | ---------------------- | ---- | ---- | ---- | ---- |
+| 1   | Jakovenko Dmitry       | 2721 | 5.5  | 2823 | 2841 |
+| 2   | Aronian Levon          | 2801 | 5.5  | 2821 | 2857 |
+| 3   | Radjabov Teimour       | 2741 | 5    | 2764 | 2743 |
+| 4   | Rapport Richard        | 2692 | 5    | 2762 | 2744 |
+| 5   | Tomashevsky Evgeny     | 2702 | 5    | 2791 | 2813 |
+| 6   | Nakamura Hikaru        | 2780 | 5    | 2792 | 2830 |
+| 7   | Svidler Peter          | 2763 | 5    | 2782 | 2815 |
+| 8   | Ding Liren             | 2774 | 5    | 2771 | 2783 |
+| 9   | Harikrishna P.         | 2738 | 5    | 2767 | 2789 |
+| 10  | Inarkiev Ernesto       | 2683 | 4.5  | 2734 | 2699 |
+| 11  | Vachier-Lagrave Maxime | 2796 | 4.5  | 2741 | 2768 |
+| 12  | Eljanov Pavel          | 2707 | 4.5  | 2724 | 2706 |
+| 13  | Li Chao B              | 2741 | 4    | 2656 | 2624 |
+| 14  | Vallejo Pons Francisco | 2705 | 4    | 2679 | 2644 |
+| 15  | Giri Anish             | 2762 | 4    | 2693 | 2696 |
+| 16  | Riazantsev Alexander   | 2651 | 3.5  | 2640 | 2623 |
+| 17  | Gelfand Boris          | 2719 | 3    | 2580 | 2555 |
+| 18  | Hammer Jon Ludvig      | 2629 | 3    | 2586 | 2562 |
+
 ## CSV Output Format
 
 The CSV file includes the following columns:
